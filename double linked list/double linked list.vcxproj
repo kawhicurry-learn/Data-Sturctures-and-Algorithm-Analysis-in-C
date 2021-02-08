@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Multilist.cpp" />
     <ClCompile Include="Polynomial.cpp" />
     <ClCompile Include="Radix_Sort.cpp" />
   </ItemGroup>
