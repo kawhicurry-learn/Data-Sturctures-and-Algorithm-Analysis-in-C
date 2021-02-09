@@ -7,7 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Sturctures and Algorit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List", "List\List.vcxproj", "{28262A64-CE32-4DAD-AACA-8601844522D2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "double linked list", "double linked list\double linked list.vcxproj", "{2997AC3F-EA71-4129-91DD-AE4AC9274A5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doubly linked list", "double linked list\double linked list.vcxproj", "{2997AC3F-EA71-4129-91DD-AE4AC9274A5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cursor", "Cursor\Cursor.vcxproj", "{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{2997AC3F-EA71-4129-91DD-AE4AC9274A5D}.Release|x64.Build.0 = Release|x64
 		{2997AC3F-EA71-4129-91DD-AE4AC9274A5D}.Release|x86.ActiveCfg = Release|Win32
 		{2997AC3F-EA71-4129-91DD-AE4AC9274A5D}.Release|x86.Build.0 = Release|Win32
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Debug|x64.ActiveCfg = Debug|x64
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Debug|x64.Build.0 = Debug|x64
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Debug|x86.Build.0 = Debug|Win32
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Release|x64.ActiveCfg = Release|x64
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Release|x64.Build.0 = Release|x64
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Release|x86.ActiveCfg = Release|Win32
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
