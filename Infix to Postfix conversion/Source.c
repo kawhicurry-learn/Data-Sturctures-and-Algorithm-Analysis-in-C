@@ -48,7 +48,7 @@ int main() {
     if (JudgePrim(*p1) > JudgePrim(Top(S))) {
       Push(*p1, S);
     } else {
-      while (Top(S)!='('&&JudgePrim(*p1) <= JudgePrim(Top(S))) {
+      while (Top(S)!='('&&JudgePrim(*p1) <= JudgePrim(Top(S))) {//out first,then in another
         *p2 = Top(S);
         p2++;
         Pop(S);
