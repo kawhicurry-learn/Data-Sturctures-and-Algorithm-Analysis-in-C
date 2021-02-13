@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{28262a64-ce32-4dad-aaca-8601844522d2}</ProjectGuid>
-    <RootNamespace>List</RootNamespace>
+    <ProjectGuid>{3cf0b4f4-d97b-4921-a2a0-2a670145369b}</ProjectGuid>
+    <RootNamespace>Stacks</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Singly List</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,8 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="a.h" />
-    <ClCompile Include="a.cpp" />
+    <ClCompile Include="stacks.cpp" />
+    <ClCompile Include="stacks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

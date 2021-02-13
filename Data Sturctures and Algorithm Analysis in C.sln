@@ -5,11 +5,19 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Data Sturctures and Algorithm Analysis in C", "Data Sturctures and Algorithm Analysis in C.vcxproj", "{CA7058DD-C02B-4424-A721-D4D227696A00}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "List", "List\List.vcxproj", "{28262A64-CE32-4DAD-AACA-8601844522D2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singly List", "List\List.vcxproj", "{28262A64-CE32-4DAD-AACA-8601844522D2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "doubly linked list", "double linked list\double linked list.vcxproj", "{2997AC3F-EA71-4129-91DD-AE4AC9274A5D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Doubly linked list", "double linked list\double linked list.vcxproj", "{2997AC3F-EA71-4129-91DD-AE4AC9274A5D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cursor", "Cursor\Cursor.vcxproj", "{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter3", "chapter3", "{4D615E84-094B-4EF5-A4E6-0D8DB9D81EAD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stacks", "Stacks\Stacks.vcxproj", "{3CF0B4F4-D97B-4921-A2A0-2A670145369B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chapter3.application", "chapter3.application", "{5799F0A1-7062-4EF1-82A3-7D6CAB3C4567}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Infix to Postfix conversion", "Infix to Postfix conversion\Infix to Postfix conversion.vcxproj", "{5594BCD4-0324-4464-8B75-DC05BCB119F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +59,32 @@ Global
 		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Release|x64.Build.0 = Release|x64
 		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Release|x86.ActiveCfg = Release|Win32
 		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A}.Release|x86.Build.0 = Release|Win32
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Debug|x64.ActiveCfg = Debug|x64
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Debug|x64.Build.0 = Debug|x64
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Debug|x86.Build.0 = Debug|Win32
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Release|x64.ActiveCfg = Release|x64
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Release|x64.Build.0 = Release|x64
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Release|x86.ActiveCfg = Release|Win32
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B}.Release|x86.Build.0 = Release|Win32
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Debug|x64.ActiveCfg = Debug|x64
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Debug|x64.Build.0 = Debug|x64
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Debug|x86.Build.0 = Debug|Win32
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Release|x64.ActiveCfg = Release|x64
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Release|x64.Build.0 = Release|x64
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Release|x86.ActiveCfg = Release|Win32
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28262A64-CE32-4DAD-AACA-8601844522D2} = {4D615E84-094B-4EF5-A4E6-0D8DB9D81EAD}
+		{2997AC3F-EA71-4129-91DD-AE4AC9274A5D} = {4D615E84-094B-4EF5-A4E6-0D8DB9D81EAD}
+		{4B0B2BB7-C2D9-4079-9E09-9FAF3EAAB99A} = {4D615E84-094B-4EF5-A4E6-0D8DB9D81EAD}
+		{3CF0B4F4-D97B-4921-A2A0-2A670145369B} = {4D615E84-094B-4EF5-A4E6-0D8DB9D81EAD}
+		{5594BCD4-0324-4464-8B75-DC05BCB119F2} = {5799F0A1-7062-4EF1-82A3-7D6CAB3C4567}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {757DCC19-91AC-4617-8632-5B1A024A01A7}
